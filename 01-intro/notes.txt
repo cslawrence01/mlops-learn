@@ -1,0 +1,4 @@
+to activate conda environment:
+    conda activate exp-tracking-env
+to start mlflow server
+    mlflow ui --backend-store-uri sqlite:///mlflow.db
